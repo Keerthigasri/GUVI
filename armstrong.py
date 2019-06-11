@@ -1,0 +1,11 @@
+N=int(input())
+n=N
+cub=0
+while(n!=0):
+  dig=n%10
+  n=n//10
+  cub=cub+(dig**3)
+if(cub==N):
+  print("yes")
+else:
+  print("no")
