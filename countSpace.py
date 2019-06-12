@@ -1,6 +1,4 @@
 s=input()
-count=0
-for i in s:
-  if(i==" "):
-    count=count+1
-print(count)
+l1=len(s)
+l2=len(s.replace(" ",""))
+print(l1-l2)
