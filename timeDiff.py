@@ -1,0 +1,11 @@
+h1,m1=map(int,input().split())
+h2,m2=map(int,input().split())
+if(h1>h2):
+  rh=h1-h2
+else:
+  rh=h2-h1
+if(m1>m2):
+  rm=m1-m2
+else:
+  rm=m2-m1
+print(rh,rm)
